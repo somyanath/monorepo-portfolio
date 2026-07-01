@@ -1,0 +1,4 @@
+packages:
+  - "challenges/*"
+  - "packages/*"
+  - "apps/*"
