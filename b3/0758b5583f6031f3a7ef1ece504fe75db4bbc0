@@ -1,0 +1,24 @@
+eslint.config.js
+  h_baa31403498e0f 1-5
+.gitignore
+  h_baa31403498e0f 1-7
+package.json
+  h_baa31403498e0f 1-16
+tsconfig.base.json
+  h_baa31403498e0f 1-14
+.prettierrc
+  h_baa31403498e0f 1-5
+pnpm-workspace.yaml
+  h_baa31403498e0f 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "b30758b5583f6031f3a7ef1ece504fe75db4bbc0",
+  "prompts": {},
+  "humans": {
+    "h_baa31403498e0f": {
+      "author": "Somyanath_Mohanty <mohantysomyanath@gmail.com>"
+    }
+  }
+}
