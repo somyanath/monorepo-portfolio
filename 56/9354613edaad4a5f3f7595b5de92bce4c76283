@@ -1,0 +1,17 @@
+challenges/testimonial-card/css/style.css
+  h_baa31403498e0f 1-55,57-109
+  h_baa31403498e0f 56
+challenges/testimonial-card/index.html
+  h_baa31403498e0f 1-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "569354613edaad4a5f3f7595b5de92bce4c76283",
+  "prompts": {},
+  "humans": {
+    "h_baa31403498e0f": {
+      "author": "Somyanath_Mohanty <mohantysomyanath@gmail.com>"
+    }
+  }
+}
