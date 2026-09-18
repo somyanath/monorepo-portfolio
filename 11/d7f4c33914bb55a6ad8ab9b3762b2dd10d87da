@@ -1,0 +1,23 @@
+docs/agents/issue-tracker.md
+  s_f5d28303cb9ba4::t_3570adba000dbe 1-49
+CLAUDE.md
+  s_f5d28303cb9ba4::t_f6cb1c9c1fac51 22-31
+docs/agents/domain.md
+  s_f5d28303cb9ba4::t_37d7a463521284 1-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "11d7f4c33914bb55a6ad8ab9b3762b2dd10d87da",
+  "prompts": {},
+  "sessions": {
+    "s_f5d28303cb9ba4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a49606ec-0294-4b79-9470-a00ad016c85e",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Somyanath_Mohanty <mohantysomyanath@gmail.com>"
+    }
+  }
+}
