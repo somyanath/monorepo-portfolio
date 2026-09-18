@@ -19,3 +19,13 @@ reviews, runbooks, and step-by-step instructions they execute on their own.
   `apps/<app>/src/components/` and are built FROM `@portfolio/design-system`.
 - Design tokens have ONE source: `packages/design-system/tokens.css` (CSS custom properties);
   Tailwind `@theme` maps to those same variables.
+
+## Agent skills
+
+### Issue tracker
+
+Issues and specs live as GitHub issues, managed via the `gh` CLI (requires a git remote — not yet added). See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Multi-context layout: a root `CONTEXT-MAP.md` points at per-context `CONTEXT.md` files. See `docs/agents/domain.md`.
