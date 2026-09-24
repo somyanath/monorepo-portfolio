@@ -1,0 +1,88 @@
+packages/design-system/src/Badge/Badge.test.tsx
+  h_baa31403498e0f 1-7
+packages/design-system/.storybook/preview.tsx
+  h_baa31403498e0f 1-22
+packages/design-system/src/test-setup.ts
+  h_baa31403498e0f 1
+packages/design-system/src/Badge/Badge.tsx
+  h_baa31403498e0f 1-22
+packages/design-system/src/Badge/Badge.stories.tsx
+  h_baa31403498e0f 1-24
+packages/design-system/package.json
+  h_baa31403498e0f 1-9,40
+  s_f5d28303cb9ba4::t_0be3d259d1eb88 10-39,41
+packages/design-system/src/tokens.css
+  h_baa31403498e0f 1-164
+packages/design-system/vite.config.ts
+  h_baa31403498e0f 2-3,9,11-13
+  s_f5d28303cb9ba4::t_e5af22019873f1 1,4-8,10,14-42
+packages/design-system/tsconfig.json
+  h_baa31403498e0f 1-4
+packages/design-system/src/Badge/Badge.module.css
+  h_baa31403498e0f 1-52
+packages/design-system/src/index.ts
+  h_baa31403498e0f 1-2
+packages/design-system/src/vite-env.d.ts
+  h_baa31403498e0f 1-2
+.gitignore
+  s_f5d28303cb9ba4::t_b045b11bf2e2ba 7-8
+eslint.config.js
+  s_f5d28303cb9ba4::t_02a0edd2c6773a 1-3,8
+packages/design-system/.storybook/main.ts
+  s_f5d28303cb9ba4::t_292a8778f7ff84 1-17
+packages/design-system/src/stories/Button.stories.ts
+  s_f5d28303cb9ba4::t_0542d2b3aef833 1-54
+packages/design-system/src/stories/Button.tsx
+  s_f5d28303cb9ba4::t_5f4dcc7ac805d2 1-37
+packages/design-system/src/stories/Configure.mdx
+  s_f5d28303cb9ba4::t_dbcf9aa5ca2e6a 1-388
+packages/design-system/src/stories/Header.stories.ts
+  s_f5d28303cb9ba4::t_8e11d746e1c053 1-34
+packages/design-system/src/stories/Header.tsx
+  s_f5d28303cb9ba4::t_750be1c9d8a182 1-56
+packages/design-system/src/stories/Page.stories.ts
+  s_f5d28303cb9ba4::t_25a8872a0a0555 1-33
+packages/design-system/src/stories/Page.tsx
+  s_f5d28303cb9ba4::t_8c4f0ab4ecd6de 1-73
+packages/design-system/src/stories/assets/accessibility.svg
+  s_f5d28303cb9ba4::t_e05b21e3cf10c0 1
+packages/design-system/src/stories/assets/discord.svg
+  s_f5d28303cb9ba4::t_035176a3beb1a4 1
+packages/design-system/src/stories/assets/github.svg
+  s_f5d28303cb9ba4::t_3f3ce2bc1ad450 1
+packages/design-system/src/stories/assets/tutorials.svg
+  s_f5d28303cb9ba4::t_c4ac4ca13ce8bd 1
+packages/design-system/src/stories/assets/youtube.svg
+  s_f5d28303cb9ba4::t_515e35b3c01489 1
+packages/design-system/src/stories/button.css
+  s_f5d28303cb9ba4::t_bff4633c4e34d5 1-30
+packages/design-system/src/stories/header.css
+  s_f5d28303cb9ba4::t_f74b071defedd6 1-32
+packages/design-system/src/stories/page.css
+  s_f5d28303cb9ba4::t_3c190ae89f284c 1-68
+packages/design-system/vitest.shims.d.ts
+  s_f5d28303cb9ba4::t_a17bf9cbe841af 1
+pnpm-lock.yaml
+  s_f5d28303cb9ba4::t_0d99dc0e90b0f5 24-99,102-410,458-466,487-494,496-497,499-500,502-504,506-507,509-510,512-516,518-873,875-878,880-887,889-892,894-910,912-916,918-919,921-924,926-927,929-933,935-937,940-950,952-967,969-971,973-975,977-985,987-989,991-995,997-999,1002-1006,1008-1009,1011-1012,1014-1015,1017-1018,1020-1021,1023-1024,1026-1027,1029-1030,1032-1033,1035-1036,1038-1039,1041-1042,1044-1045,1047-1193,1196-1198,1200-1202,1204-1206,1208-1209,1211-1212,1214-1216,1218-1242,1245-1246,1248-1249,1251-1253,1255-1258,1260-1262,1264-1280,1283-1285,1287-1301,1303-1305,1307-1308,1310-1311,1313-1314,1316-1318,1320-1347,1350-1351,1353-1370,1373-1375,1377-1387,1389-1451,1454-2521,2523-2524,2526-2527,2529-2530,2532-2533,2535-2536,2538-2539,2541-2542,2544-2545,2547-2548,2550-2551,2553-2554,2556-2560,2612-2613,2630-3041,3046-3221,3230-3257,3259,3261-3263,3265,3269-3276,3282-3297,3300-3311,3317-3322,3331-3332,3339-3354,3359-3362,3365-3426,3429-3437,3447-3448,3494-3495,3506-3511,3514-3515,3522-3527,3544-3552,3557-3562,3565-3567,3570-3579,3589-3596,3603-3612,3615-3618,3623-3649,3656-3665,3675-3723,3730-3757,3762-3767,3770-3771,3774-3784,3794-3840,3853-3856,3861-3889,3894-3899,3902-3944,3947-3986,3993-4047,4054-4102,4109-4127,4132-4198,4203-4207,4210-4221
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "fd515ffc8b38e91836c8ee3fa11f04fc4c054b83",
+  "prompts": {},
+  "humans": {
+    "h_baa31403498e0f": {
+      "author": "Somyanath_Mohanty <mohantysomyanath@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_f5d28303cb9ba4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a49606ec-0294-4b79-9470-a00ad016c85e",
+        "model": "unknown"
+      },
+      "human_author": "Somyanath_Mohanty <mohantysomyanath@gmail.com>"
+    }
+  }
+}
