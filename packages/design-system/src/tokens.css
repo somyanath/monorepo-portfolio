@@ -112,6 +112,45 @@
   --badge-brand-bg: var(--bg-brand-subtle);
   --badge-brand-border: var(--border-brand-subtle);
 
+  /* ========== BUTTON hierarchy aliases (fg / bg / border / hover / active) ========== */
+  --button-primary-fg: var(--text-primary-invert);
+  --button-primary-bg: var(--bg-brand);
+  --button-primary-bg-hover: var(--bg-brand-emphasize);
+  --button-primary-bg-active: var(--indigo-800);
+
+  --button-secondary-fg: var(--text-primary);
+  --button-secondary-bg: var(--bg-primary);
+  --button-secondary-border: var(--border-primary);
+  --button-secondary-bg-hover: var(--bg-primary-hover);
+  --button-secondary-bg-active: var(--bg-secondary);
+
+  --button-tertiary-fg: var(--text-brand);
+  --button-tertiary-bg-hover: var(--neutral-50);
+  --button-tertiary-bg-active: var(--gray-100);
+
+  --button-link-color-fg: var(--text-brand);
+  --button-link-color-fg-hover: var(--text-primary-hover);
+
+  --button-link-gray-fg: var(--text-secondary);
+  --button-link-gray-fg-hover: var(--text-primary);
+
+  --button-destructive-fg: var(--text-primary-invert);
+  --button-destructive-bg: var(--bg-error);
+  --button-destructive-bg-hover: var(--bg-error-emphasize);
+  --button-destructive-bg-active: var(--red-800);
+
+  --button-disabled-fg: var(--text-disabled);
+  --button-disabled-bg: var(--bg-disabled);
+  --button-disabled-border: var(--bg-disabled-emphasize);
+
+  /* ========== FOCUS RING ========== */
+  --shadow-focus-brand: 0 0 0 4px var(--indigo-200);
+  --shadow-focus-error: 0 0 0 4px var(--red-200);
+
+  /* ========== ELEVATION ========== */
+  --shadow-button-resting:
+    0px 1px 2px 0px rgb(0 0 0 / 0.06), 0px 1px 3px 0px rgb(0 0 0 / 0.1);
+
   /* ========== TYPOGRAPHY ========== */
   --font-sans: 'Noto Sans', system-ui, sans-serif;
   --font-normal: 400;
