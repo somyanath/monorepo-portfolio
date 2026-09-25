@@ -1,0 +1,42 @@
+packages/design-system/src/Button/Button.test.tsx
+  s_0767e534739fb4::t_85980b3a2ac1d3 1-38
+packages/design-system/src/Button/Button.tsx
+  s_0767e534739fb4::t_205f5e394d2f18 1-4,13-14,17-47,49-72
+  h_baa31403498e0f 5-10,12,15-16
+  s_0767e534739fb4::t_4a21d61cd5d41f 11
+  s_0767e534739fb4::t_8e57e57fb30b51 48
+packages/design-system/src/tokens.css
+  s_0767e534739fb4::t_5b9f97e3d03c55 128-129
+  s_0767e534739fb4::t_12288991c8b9e8 150-153
+  s_0767e534739fb4::t_8700d6faf4ee9a 115-127,130-149
+packages/design-system/src/Button/Button.stories.tsx
+  s_0767e534739fb4::t_46d2c859305341 60-88
+  s_0767e534739fb4::t_02475c16aa7a7c 1-28,30-59,89-131
+  s_0767e534739fb4::t_2c952c759a0dd2 29
+packages/design-system/src/index.ts
+  s_0767e534739fb4::t_335cf1cbd6b869 3-4
+packages/design-system/src/Button/Button.module.css
+  s_0767e534739fb4::t_d64638d81383c7 1-4,6-7,9-22,24-28,31-41,56-61,64-69,73-79,82-86,90,92-96,99-102,121,125,128-129,131-133,135-138,141-145,148-153,158-160,168,172-174,178-180,184-186,190-193,195,198,207
+  s_0767e534739fb4::t_89b6386773d871 5,8,23,29-30,42-55,62-63,70-72,80-81,87-89,91,97-98,103-120,122-124,126-127,130,134,139-140,146-147,154-157,161-167,169-171,175-177,181-183,187-189,194,196-197,199-206
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d850d95e27d4561fc42e2c40ce1094c88e310265",
+  "prompts": {},
+  "humans": {
+    "h_baa31403498e0f": {
+      "author": "Somyanath_Mohanty <mohantysomyanath@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_0767e534739fb4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c2deba83-98f8-462f-8895-99dcb1d83003",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Somyanath_Mohanty <mohantysomyanath@gmail.com>"
+    }
+  }
+}
