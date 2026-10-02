@@ -6,3 +6,4 @@ storybook-static/
 coverage/
 playwright-report/
 *storybook.log
+notes/
