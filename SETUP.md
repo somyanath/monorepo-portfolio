@@ -79,5 +79,12 @@ Each challenge has exactly one home based on the skill it teaches, so there is n
 
 ## Working mode
 
-Claude Code is **guidance-only** here. It writes/changes code only when the user says
-**"implement"** for that task. See `CLAUDE.md`.
+Somya owns architecture, logic, and review; Claude Code writes the code. The approval gate
+sits at the **spec**, not at every keystroke: a phase or app gets a reviewed spec — as a
+GitHub issue — before any code, and work an approved spec already covers gets implemented
+without further prompting.
+
+Guidance-only mode (no code unless the user said "implement") was retired because the
+review effort it bought was going on relaying commands rather than on architecture. The
+guardrails it was protecting moved to the spec gate and to a short list of
+always-ask actions. See `CLAUDE.md` for the operative rules.
