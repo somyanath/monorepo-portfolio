@@ -31,7 +31,6 @@ Portfolio/
 ├─ pnpm-workspace.yaml   package.json   tsconfig.base.json
 ├─ eslint.config.js   .prettierrc   .gitignore   .github/workflows/ci.yml
 ├─ challenges/                 # buildless vanilla, plain CSS — fundamentals reps
-│   ├─ badge-component/        # migrated from "Design System/badge-component"
 │   └─ testimonial-card/       # migrated (double nesting flattened)
 ├─ packages/
 │   └─ design-system/          # 15 atomic primitives · React+TS · CSS Modules · tokens.css · Storybook
@@ -63,7 +62,9 @@ Each challenge has exactly one home based on the skill it teaches, so there is n
 
 ## Cleanups before/while scaffolding
 
-- Migrate `Design System/badge-component/` → `challenges/badge-component/`.
+- Badge was absorbed into `packages/design-system` (`src/Badge/` — React+TS, CSS Modules,
+  unit tests, stories) rather than migrated to `challenges/`. No buildless badge rep exists;
+  `challenges/` keeps `testimonial-card` as its HTML/CSS rep.
 - Migrate `testimonial-card/testimonial-card/` → `challenges/testimonial-card/` (flatten nesting).
 - Move the `*.fig` files alongside their challenge (e.g. `challenges/<name>/designs/`).
 - **Delete the old `Design System/` folder** so "design-system" means only the React package.
