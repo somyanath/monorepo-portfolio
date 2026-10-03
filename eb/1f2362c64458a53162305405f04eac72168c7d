@@ -1,0 +1,26 @@
+SETUP.md
+  s_aac3dd761bdd2f::t_40b5302af00863 65-67
+packages/design-system/.storybook/main.ts
+  s_aac3dd761bdd2f::t_7a85f9a8d745ea 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "eb1f2362c64458a53162305405f04eac72168c7d",
+  "prompts": {},
+  "humans": {
+    "h_baa31403498e0f": {
+      "author": "Somyanath_Mohanty <mohantysomyanath@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_aac3dd761bdd2f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "18a12872-277a-4da3-8e75-fc42f2d242c7",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Somyanath_Mohanty <mohantysomyanath@gmail.com>"
+    }
+  }
+}
